@@ -11,6 +11,7 @@ inspired by this video : https://www.youtube.com/watch?v=avlengYsJdw&t=514s&ab_c
 ### Tutorial
 
 1. Open your slicer software and go to your printer setting.
+2. 
    
    ![image](https://github.com/user-attachments/assets/d81aa235-df29-4b29-9bfd-3652f957b01b)
 
