@@ -9,7 +9,6 @@ inspired by this video : https://www.youtube.com/watch?v=avlengYsJdw&t=514s&ab_c
    ![image](https://github.com/user-attachments/assets/d81aa235-df29-4b29-9bfd-3652f957b01b)
 3. Then go to the section for end gcode and type this :
    
-  '''
   G1 X105 Y195 Z50 F3000 ; Move up and back
 
   M300 S3520 P200 ; A7
@@ -36,6 +35,6 @@ inspired by this video : https://www.youtube.com/watch?v=avlengYsJdw&t=514s&ab_c
   ; M140 S0 ;Turn-off bed 
    
   ; M84 X Y E ;Disable all steppers but Z
-  '''
+  
     
 
