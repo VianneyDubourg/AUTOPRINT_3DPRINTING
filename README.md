@@ -150,5 +150,47 @@ G1 E-2 F2700 ;Retract a bit
 
 💡 **Explication simplifiée** : Désactive certains moteurs pour **éviter une surchauffe et économiser de l'énergie**.
 
+# Problèmes courants et solutions lors des impressions automatiques  
+
+L'impression automatique est pratique, mais elle peut présenter certains défis au fil des impressions. Voici une liste des problèmes les plus courants et comment les résoudre efficacement.
+
+---
+
+## 1. Manque de plastique (filament épuisé ou bouché)
+**Problème** : Au bout de plusieurs impressions, il est possible que le filament s’épuise, ou que la buse se bouche partiellement, entraînant une impression ratée.  
+**Solutions** :
+- **Capteur de fin de filament** : Certaines imprimantes disposent d’un capteur qui met automatiquement l’impression en pause si le filament est épuisé. Si ton imprimante n'en a pas, tu peux envisager d’en ajouter un.
+- **Vérification du filament** : Avant de lancer une impression automatique, assure-toi qu'il y a suffisamment de filament sur la bobine.
+- **Nettoyage de la buse** : Si des couches commencent à manquer, il se peut que la buse soit partiellement bouchée. Pense à la nettoyer avec une aiguille fine ou en effectuant un cold pull.
+
+---
+
+## 2. Impression ratée et détection des erreurs (mettre une caméra ?)
+**Problème** : Il peut arriver qu’une impression échoue (pièce qui se détache, couche qui se déforme, problème d’extrusion…). Dans un processus automatique, une impression ratée peut bloquer l’imprimante.  
+**Solutions** :
+- **Installer une caméra** : Une webcam connectée à un logiciel comme **OctoPrint** ou **Mainsail** peut surveiller les impressions en direct. Certains logiciels peuvent même détecter les erreurs et arrêter l'impression automatiquement.
+- **Utiliser des capteurs de pression ou d’accélération** : Certaines imprimantes haut de gamme détectent les vibrations anormales indiquant une impression ratée.
+- **Notifications à distance** : Si tu utilises OctoPrint, tu peux configurer un système d’alerte qui t’envoie un message en cas d'erreur.
+
+---
+
+## 3. Le tapis d’impression qui ne colle plus après 100-120 impressions au même endroit
+**Problème** : À force d’imprimer sur la même zone du plateau, celui-ci perd son adhérence et les pièces peuvent se détacher en cours d’impression.  
+**Solutions** :
+- **Appliquer de la laque ou de la colle** : Une fine couche de laque pour cheveux ou de colle en stick (comme le **UHU stick**) peut améliorer l'adhérence.
+- **Changer la position d’impression** : Si possible, modifie la position de départ sur le plateau pour éviter d’user toujours la même zone.
+- **Nettoyer le plateau** : Les résidus de filament ou d’adhésif peuvent réduire l’adhérence. Nettoie le plateau avec de l'**alcool isopropylique** après plusieurs impressions.
+- **Remplacer le plateau si nécessaire** : Certains tapis magnétiques ou plaques PEI peuvent perdre en efficacité avec le temps.
+
+---
+
+## 4. La pièce doit être plus haute que large pour faciliter l’éjection
+**Problème** : Si la pièce imprimée est trop large et basse, la tête d’impression aura du mal à la pousser hors du plateau, car elle glissera dessus sans l’accrocher.  
+**Solutions** :
+- **Concevoir les pièces avec une hauteur suffisante** : Assure-toi que la pièce ait une hauteur suffisante (au moins **10 mm - 15 mm**) pour que la tête d’impression puisse la pousser efficacement.
+- **Ajouter une structure d’accroche** : Si ta pièce est naturellement basse, ajoute un **petit rebord ou une poignée** pour faciliter son éjection.
+- **Incliner la tête d’impression** : Sur certaines imprimantes, il est possible d'ajuster l’angle d’éjection pour mieux pousser les pièces.
+
+---
     
 
